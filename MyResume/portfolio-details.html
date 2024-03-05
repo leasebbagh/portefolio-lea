@@ -1,41 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Portfolio Details - Personal Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <meta charset="utf-8">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    .video-container {
+      margin-bottom: 30px;
+    }
 
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Updated: Jan 09 2024 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    .video-description ul {
+      list-style-type: none; /* Enlève les puces */
+      padding: 0;
+    }
+
+    .video-description li {
+      margin-bottom: 10px; /* Espacement entre les éléments de la liste */
+    }
+
+    .video-description a {
+      color: #0b3dbd;
+    }
+  </style>
 </head>
-
 <body>
 
   <main id="main">
@@ -43,28 +30,25 @@
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
+        <h2 style="background-color: #e7d2C3; color: #333; padding: 15px; text-align: center;">Tp cabinet médical</h2>
 
-        <h2 style="background-color: #3498db; color: #fff; padding: 15px;">Tp cabinet médical</h2>
-
-        <!-- Code avec des colonnes Bootstrap -->
-        <div class="row mx-auto my-auto">
-          <div class="col-md-6 text-center">
-            <img src="assets/img/portfolio/interfaceTpCabinetMedical.png" alt="" class="img-fluid w-100" style="margin-top: 30px;">
+        <div class="row align-items-center">
+          <!-- Image Container -->
+          <div class="col-lg-6">
+            <img src="assets/img/portfolio/interfaceTpCabinetMedical.png" alt="" class="img-fluid" style="max-width: 100%; height: auto;">
           </div>
-          <div class="col-md-6">
-            <div class="portfolio-description text-start">
-              <p>Dans ce Tp, nous avons géré la gestion de rendez-vous pour un cabinet médical. Avec la date du rendez-vous, l'heure, la personne concernée par le rendez-vous et la pathologie de la personne.</p>
-              <ul>
-                <li>Objectif: gestion de rendez-vous pour un cabinet médical</li>
-                <li>Moyens: scene builder pour l'interface et le logiciel IntelliJ pour coder</li>
-                <li>Contraintes: réaliser durant un cours</li>
-                <li>Étapes: j'ai d'abord commencé à prendre connaissance de l'interface scene builder et j'ai ensuite codé</li>
-                <li><a href="assets/doc/explicationCabinetMedical.pdf" style="color: #0b3dbd;" target="_blank">Explication de l'exercice</a></li>
-                <li><a href="https://github.com/leasebbagh/TP_cabinet_medical.git" style="color: #0b3dbd;" target="_blank">Lien vers github</a></li>
-                <li><a href="assets/doc/cabinetmedicalHashMap.pdf" style="color: #0b3dbd;" target="_blank">Explication d'une HashMap</a></li>
 
-              </ul>
-            </div>
+          <div class="col-lg-6 video-description">
+            <p>Dans ce Tp, nous avons géré la gestion de rendez-vous pour un cabinet médical. Avec la date du rendez-vous, l'heure, la personne concernée par le rendez-vous et la pathologie de la personne.</p>
+            <ul>
+              <li><strong>Objectif:</strong> Gestion de rendez-vous pour un cabinet médical</li>
+              <li><strong>Moyens:</strong>  Scene builder pour l'interface et le logiciel IntelliJ pour coder</li>
+              <li><strong>Contraintes:</strong> Réaliser durant un cours</li>
+              <li><strong>Étapes:</strong> J'ai d'abord commencé à prendre connaissance de l'interface scene builder et j'ai ensuite codé</li>
+              <li><a href="assets/doc/explicationCabinetMedical.pdf"  target="_blank">Explication de l'exercice</a></li>
+              <li><a href="https://github.com/leasebbagh/TP_cabinet_medical.git" target="_blank">Lien vers github</a></li>
+              <li><a href="assets/doc/cabinetmedicalHashMap.pdf" target="_blank">Explication d'une HashMap</a></li>
+            </ul>
           </div>
         </div>
 
@@ -75,24 +59,6 @@
 
 
   </main><!-- End #main -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
 </body>
-
 </html>
